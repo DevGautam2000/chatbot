@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  background: gray;
+  background-image: url(../assets/bg.svg);
+}
+
+.app_overlay {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-content: center;
+}
+
+.app_container {
+  width: 400px;
+  height: 60vh;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
